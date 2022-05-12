@@ -1,2 +1,2 @@
-# javascript-projects
-A collection of 50 Javascript projects 
+# Javascript Projects
+ A collection of 50 Javascript projects 
