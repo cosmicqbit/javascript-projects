@@ -10,7 +10,7 @@ const newsAccordion = document.getElementById('newsAccordion');
 // Create an AJAX GET Request
 const xhr = new XMLHttpRequest();
 xhr.open('GET', `https://newsapi.org/v2/everything?q=piracy&sortBy=publishedAt&language=en&apiKey=${apiKey}`, true);
-xhr.getResponseHeader('Content-type', 'application/json');
+xhr.getResponseHeader('Content-type', 'text/plain');
 
 xhr.onload = function () {
     if (this.status == 200) {
