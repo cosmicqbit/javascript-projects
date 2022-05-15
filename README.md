@@ -1,2 +1,7 @@
 # Javascript Projects
  A collection of 50 Javascript projects 
+
+1. [Quote Generator](https://cosmicqbit.github.io/quote-generator) || [Source Code](/quote-generator)
+2. [Infinite Scroll](https://cosmicqbit.github.io/infinite-scroll) || [Source code](/infinite-scroll)
+3. [Picture in Picture](https://cosmicqbit.github.io/picture-in-picture) || [Source code](/picture-in-picture)
+4. [Piracy news](https://cosmicqbit.github.io/piracy-news) || [Source code](/piracy-news) 
