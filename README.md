@@ -5,3 +5,4 @@
 2. [Infinite Scroll](https://cosmicqbit.github.io/infinite-scroll) || [Source code](/infinite-scroll)
 3. [Picture in Picture](https://cosmicqbit.github.io/picture-in-picture) || [Source code](/picture-in-picture)
 4. [Piracy news](https://cosmicqbit.github.io/piracy-news) || [Source code](/piracy-news) 
+5. [Music Player](https://cosmicqbit.github.io/music-player) || [Source code](/music-player)
