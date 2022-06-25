@@ -7,3 +7,4 @@
 4. [Piracy news](https://cosmicqbit.github.io/piracy-news) || [Source code](/piracy-news) 
 5. [Music Player](https://cosmicqbit.github.io/music-player) || [Source code](/music-player)
 6. [Task list](https://cosmicqbit.dev/tasklist/)
+7. [Loan Calculator](https://cosmicqbit.dev/loancalculator)
