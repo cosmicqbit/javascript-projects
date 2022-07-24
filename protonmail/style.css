@@ -15,7 +15,7 @@ header {
     margin: 1em 2em 4em;
 }
 
-main {
+main, .copyright {
     margin: 0 auto;
     max-width: 1000px;
     justify-content: center;
@@ -24,9 +24,17 @@ main {
 
 .container {
     max-width: 480px;
-    margin: 0 auto;
+    margin: 0 auto 2rem;
     padding: 2.5rem;
-    border: 1px solid rgb(197, 197, 197);
+    /* Original border shadow */
+    /* border: 1px solid rgb(197, 197, 197);
+    border-radius: 10px;
+    box-shadow: 10px 10px #f5f4f2; */
+    /* Glassmorphism */
+    background: rgba( 144, 19, 254, 0.001 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.9px );
+    -webkit-backdrop-filter: blur( 4.9px );
     border-radius: 10px;
 }
 
@@ -35,9 +43,9 @@ main {
     flex-direction: column;
 }
 
-img {
-    width: 5rem;
-    height: 5rem;
+.pfp {
+    width: 4rem;
+    height: 4rem;
     object-fit: cover;
     margin-right: 0.8rem;
     border-radius: 0.3rem;
@@ -54,50 +62,51 @@ span {
 
 .accounts {
     display: flex;
+    flex-direction: column;
     margin-block-end: 1.5rem;
 }
 
 .account {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 0.3rem;
+    padding: 0.5rem;
     border:transparent;
     border-radius: 0.5rem;
 }
 
-.account:hover {
-    background-color: #f5f4f2;
+.account--details {
+    flex-grow: 1;
+}
+
+.account--details a:hover {
+    text-decoration: none;
+}
+
+.account:hover, .btn:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
 }
 
 .acc-name {
     font-weight: bold;
 }
 
+.arrow {
+    margin-left: auto;
+}
+
 a:active {
     color: #6243e6;
 }
 
-.arrow {
-    margin-left: auto;
-    margin-right: 0.2rem;
-}
-
-.btns {
-    /* border: 1px solid purple; */
-}
-
 .btn {
-    /* border: 1px solid purple; */
     margin: 0.2em 0;
-    padding: 0.5rem ;
+    padding: 0.7rem ;
     font-weight: 500;
     cursor: pointer;
     text-align: center;
     border-radius: 0.3rem;
-}
-
-.btn:hover {
-    background-color: #f3f3f3; 
 }
 
 .btn--add {
@@ -107,4 +116,19 @@ a:active {
 
 .btn--signout {
     color: #6d4aff;
+}
+
+.copyright {
+    text-align: center;
+    font-size:small;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 480px;
+        margin: 0 auto 2rem;
+        padding: 2.5rem;
+        box-shadow: none;
+    }
 }
