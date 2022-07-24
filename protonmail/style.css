@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 
 }
 
@@ -31,7 +31,7 @@ main {
     border-radius: 10px;
 }
 
-.content, .btn {
+.content, .btns {
     display: flex;
     flex-direction: column;
 }
@@ -42,8 +42,30 @@ main {
 
 .accounts {
     display: flex;
+    margin-block-end: 1.5rem;
 }
 
 a:active {
     color: #6243e6;
+}
+
+.btns {
+    /* border: 1px solid purple; */
+}
+
+.btn {
+    /* border: 1px solid purple; */
+    margin: 0.2em 0;
+    padding: 0.5rem ;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #e4e4e4; 
+}
+
+.btn--add {
+    border: 1px solid #e4e4e4;
 }
