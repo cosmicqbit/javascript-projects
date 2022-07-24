@@ -4,8 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
-
+    /* border: 1px solid red; */
 }
 
 body {
@@ -26,7 +25,7 @@ main {
 .container {
     max-width: 480px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 2.5rem;
     border: 1px solid rgb(197, 197, 197);
     border-radius: 10px;
 }
@@ -34,6 +33,19 @@ main {
 .content, .btns {
     display: flex;
     flex-direction: column;
+}
+
+img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    margin-right: 0.8rem;
+    border-radius: 0.3rem;
+}
+
+span {
+    font-size: 0.9rem;
+    opacity: 0.9;
 }
 
 #title {
@@ -45,8 +57,29 @@ main {
     margin-block-end: 1.5rem;
 }
 
+.account {
+    display: flex;
+    align-items: center;
+    padding: 0.3rem;
+    border:transparent;
+    border-radius: 0.5rem;
+}
+
+.account:hover {
+    background-color: #f5f4f2;
+}
+
+.acc-name {
+    font-weight: bold;
+}
+
 a:active {
     color: #6243e6;
+}
+
+.arrow {
+    margin-left: auto;
+    margin-right: 0.2rem;
 }
 
 .btns {
@@ -60,12 +93,18 @@ a:active {
     font-weight: 500;
     cursor: pointer;
     text-align: center;
+    border-radius: 0.3rem;
 }
 
 .btn:hover {
-    background-color: #e4e4e4; 
+    background-color: #f3f3f3; 
 }
 
 .btn--add {
     border: 1px solid #e4e4e4;
+    font-weight: 500;
+}
+
+.btn--signout {
+    color: #6d4aff;
 }
