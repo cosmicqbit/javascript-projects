@@ -1,4 +1,4 @@
-# Protonmail Login Portal [[👀See live]](https://cosmicqbit.github.io/protonmail/)
+# Protonmail Login Portal [(👀See live)](https://cosmicqbit.github.io/protonmail/)
 
 ## 🖥 Desktop View
 ![](https://telegra.ph/file/c0fbad299816cdfb596af.jpg)
