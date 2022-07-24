@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
 }
 
 body {
@@ -26,10 +25,6 @@ main, .copyright {
     max-width: 480px;
     margin: 0 auto 2rem;
     padding: 2.5rem;
-    /* Original border shadow */
-    /* border: 1px solid rgb(197, 197, 197);
-    border-radius: 10px;
-    box-shadow: 10px 10px #f5f4f2; */
     /* Glassmorphism */
     background: rgba( 144, 19, 254, 0.001 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
