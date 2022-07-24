@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 1em 2em 4em;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid red;
+
+
+}
