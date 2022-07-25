@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 body {
@@ -51,8 +52,12 @@ span {
     opacity: 0.9;
 }
 
-#title {
+.head {
     margin-block-end: 2rem;
+}
+
+.head p {
+    font-size: small;
 }
 
 .accounts {
@@ -93,6 +98,11 @@ span {
 
 a:active {
     color: #6243e6;
+}
+
+hr {
+    border: 0.1px solid gray;
+    margin: 0.6em;
 }
 
 .btn {
