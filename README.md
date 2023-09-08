@@ -1,5 +1,5 @@
 # Javascript Projects
- A collection of some Javascript projects 
+📜 A collection of some projects I did while learning Javascript 
 
 1. [Quote Generator](https://cosmicqbit.github.io/quote-generator)
 2. [Infinite Scroll](https://cosmicqbit.github.io/infinite-scroll)
