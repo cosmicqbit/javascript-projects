@@ -1,5 +1,5 @@
 # Javascript Projects
- A collection of 50 Javascript projects 
+ A collection of some Javascript projects 
 
 1. [Quote Generator](https://cosmicqbit.github.io/quote-generator)
 2. [Infinite Scroll](https://cosmicqbit.github.io/infinite-scroll)
